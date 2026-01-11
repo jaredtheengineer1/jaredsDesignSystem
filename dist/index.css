@@ -234,7 +234,7 @@ header .blog {
 header:not(.blog) {
   height: 7vh;
   max-height: 7vh;
-  background: var(--color-bg-surface);
+  background: var(--color-bg-primary);
   width: 100%;
   margin: 0 auto;
 }
