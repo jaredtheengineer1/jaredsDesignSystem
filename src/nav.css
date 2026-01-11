@@ -37,7 +37,7 @@ nav ul li {
 }
 
 .case-study-nav {
-  margin-bottom: var(-space-4);
+  margin-bottom: var(--space-4);
   display: flex;
   justify-content: flex-start;
   font-size: var(--font-size-sm);
