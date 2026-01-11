@@ -1,0 +1,5 @@
+@import url("tokens.css");
+.intro-heading {
+  color: var(--color-primary);
+  font-size: var(--font-size-48);
+}

@@ -1,0 +1,5 @@
+@import url("tokens.css");
+
+.page-intro {
+  margin: var(--space-2) auto var(--space-6) auto;
+}

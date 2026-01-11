@@ -1,0 +1,48 @@
+@import url("tokens.css");
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: var(--space-1);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-regular);
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.nav-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+.nav-link.active {
+  border-bottom: 2x solid var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.case-study-nav {
+  margin-bottom: var(-space-4);
+  display: flex;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+
+.back-link {
+  font-size: var(--font-size-14);
+}

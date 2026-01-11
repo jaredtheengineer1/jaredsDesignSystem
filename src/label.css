@@ -1,0 +1,9 @@
+@import url("tokens.css");
+
+.case-study-label {
+  text-transform: capitalize;
+  font-weight: var(--font-weight-light);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  letter-spacing: var(--letter-spacing-wider);
+}

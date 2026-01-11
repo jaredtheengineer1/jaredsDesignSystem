@@ -1,0 +1,28 @@
+@import url("tokens.css");
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--color-bg-primary);
+  }
+  html {
+    color-scheme: dark;
+  }
+}
+
+@media (max-width: 640px) {
+  main {
+    line-height: 1.6;
+  }
+  .page-intro {
+    margin: var(--space-4) auto var(--space-5) auto;
+  }
+  .case-study-dl dt {
+    margin-top: var(--space-2);
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-heading {
+    font-size: var(--font-size-60);
+  }
+}

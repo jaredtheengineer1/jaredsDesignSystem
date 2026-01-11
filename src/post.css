@@ -1,0 +1,27 @@
+@import url("tokens.css");
+
+.posts {
+  width: 100%;
+}
+
+.post-item {
+  width: 390px;
+  height: 100%;
+  text-align: center;
+  background-color: var(--gray-500);
+  margin: var(--space-0) var(--space-8) var(--space-8) var(--space-8);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.post-item p {
+  width: 390px;
+  height: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#post {
+  max-height: 83vh;
+  overflow-y: scroll;
+}

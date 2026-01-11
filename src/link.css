@@ -1,0 +1,25 @@
+@import url("tokens.css");
+
+a:not(.nav-link),
+a:visited:not(.nav-link) {
+  color: var(--color-primary);
+}
+
+.resume-link {
+  margin-top: var(--space-6);
+  font-weight: var(--font-weight-medium);
+}
+
+.resume-link a::after {
+  content: " →";
+}
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-4) 0;
+}
+
+.contact-links li {
+  margin-bottom: var(--space-2);
+}

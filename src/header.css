@@ -1,0 +1,33 @@
+@import url("tokens.css");
+
+header .blog {
+  height: 14vh;
+  max-height: 14vh;
+}
+
+header:not(.blog) {
+  height: 7vh;
+  max-height: 7vh;
+  background: var(--color-bg-surface);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inner-header {
+  background-color: var(--color-primary);
+  height: 14vh;
+  max-height: 14vh;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.inner-header h1 {
+  color: var(--gray-0);
+  font-size: var(--font-size-40);
+}
+
+.subheader {
+  font-size: var(--font-size-20);
+  color: var(--gray-0);
+  font-weight: var(--font-weidht-semibold);
+}

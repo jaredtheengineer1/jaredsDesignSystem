@@ -1,0 +1,22 @@
+@import url("tokens.css");
+
+.case-study-dl {
+  margin-top: var(--space-3);
+}
+
+.case-study-dl dt {
+  font-weight: var(--font-weight-bold);
+  margin-top: var(--space-3);
+  padding-left: var(--space-2);
+  border-left: 2px solid var(--color-border-subtle);
+}
+
+.case-study-dl dt:first-of-type {
+  margin-top: 0;
+}
+
+.case-study-dl dd {
+  margin: var(--space-1) 0 0 0;
+  color: var(--color-text-secondary);
+  max-width: 65ch;
+}
