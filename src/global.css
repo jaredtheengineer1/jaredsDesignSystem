@@ -13,6 +13,7 @@ body {
 body {
   color: var(--color-text-primary);
   font-family: var(--font-family-primary) var(--font-family-sans-serif);
+  background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
