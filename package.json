@@ -12,6 +12,7 @@
   },
   "keywords": [],
   "author": "",
+  "private": "false",
   "license": "ISC",
   "description": "",
   "devDependencies": {
