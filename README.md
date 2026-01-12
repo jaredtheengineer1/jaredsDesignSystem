@@ -5,19 +5,19 @@ A lightweight CSS design system with **tokens, resets, and component styles** fo
 ## Install
 
 ```bash
-npm install @jared-clayborn/design-system
+npm install @jared.the.engineere1/design-system
 ```
 
 Then, import it into your CSS:
 
 ```css
-@import "@jared-clayborn/design-system/dist/index.css";
+@import "@jared.the.engineer1/design-system/dist/index.css";
 ```
 
 or JS
 
 ```js
-import "@jared-clayborn/design-system/dist/index.css";
+import "@jared.the.engineer1/design-system/dist/index.css";
 ```
 
 ### Quick Example
